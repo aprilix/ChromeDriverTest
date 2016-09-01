@@ -10,7 +10,7 @@ namespace ChromeTest
         public void start_browser()
         {
             ChromeOptions options = new ChromeOptions();
-            //options.AddExtension(@"seldt.crx"); 
+            options.AddExtension(@"seldt.crx"); 
             try
             {
                 var serv = ChromeDriverService.CreateDefaultService();
