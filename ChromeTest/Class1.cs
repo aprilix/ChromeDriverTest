@@ -31,7 +31,7 @@ namespace ChromeTest
                 options.AddExcludedArgument("disable-sync");
                 options.AddExcludedArgument("use-mock-keychain");
                 options.AddExcludedArgument("ignore-certificate-errors");
-                options.AddArgument(@"--user-data-dir=E:\Temp");
+                //options.AddArgument(@"--user-data-dir=E:\Temp");
                 options.AddArgument("--enable-devtools-experiments=true");
                 options.AddArgument("--test-type=driver");
                 options.AddArgument("--enable-tab-switcher=true");
